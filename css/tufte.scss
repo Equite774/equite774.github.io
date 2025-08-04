@@ -652,3 +652,7 @@ mjx-container[display="true"] {
   text-align: center;
   width: 100%;  /* Full width so Tufte doesn't squeeze it */
 }
+
+.footnotes p {
+  width: 90% !important;
+}

@@ -149,7 +149,7 @@ However, the design of SpecAugment is essentially just Cutout, except hiding ent
 
 ### SpecAugment++
 
-Designed as an improvement to SpecAugment, applies masking with some probability on the hidden states.[^fn10] In implementation, this requires a layer. I only used Mixture Masking, whose design is as follows:
+Designed as an improvement to SpecAugment, applies masking with some probability on the hidden states.[^fn5] In implementation, this requires a layer. I only used Mixture Masking, whose design is as follows:
 
 Given two 2D hidden state $$h_1,h_2$$ with width $$W$$ and height $$H$$, we sample 
 
@@ -204,10 +204,8 @@ There are several other non-neural net architectures that I would like to try. A
 [^fn2]: Tamanna, Sheeban E., Mohammed Ezhan, Mahesh R., Anupama Shetter, B. D. Parameshachari, Sunil Kumar D. S., and Kiran Puttegowda. “Musical Instrument Classification Using Deep Learning CNN Models.” Proceedings of the 2024 International Conference on Integrated Intelligence and Communication Systems (ICIICS). IEEE, 2024. https://doi.org/10.1109/ICIICS63763.2024.10859695.
 [^fn3]: Deng, Jingyuan, Christian Simmermacher, and Stephen Cranefield. “A Study on Feature Analysis for Musical Instrument Classification.” IEEE Transactions on Systems, Man, and Cybernetics – Part B: Cybernetics 38, no. 2 (April 2008): 429–438. https://doi.org/10.1109/TSMCB.2007.913394.
 [^fn4]: Tan, Chong Hong, Koksheik Wong, Vishnu Monn Baskaran, Kiki Adhinugraha, and David Taniar. “Is It Violin or Viola? Classifying the Instruments’ Music Pieces Using Descriptive Statistics.” ACM Transactions on Multimedia Computing, Communications, and Applications 19, no. 2s (March 16, 2023): Article 93, 1–22. https://doi.org/10.1145/3563218.
-[^fn5]: Wang, Helin, Yuexian Zou, and Wenwu Wang. “SpecAugment++: A Hidden Space Data Augmentation Method for Acoustic Scene Classification.” arXiv preprint arXiv:2103.16858, March 2021. https://doi.org/10.48550/arXiv.2103.16858.
+[^fn5]: Wang, Helin, Yuexian Zou, and Wenwu Wang.  “SpecAugment++: A Hidden Space Data Augmentation Method for Acoustic Scene Classification.” In Proceedings of Interspeech 2021, 551–555. Brno, Czech Republic: International Speech Communication Association, 2021. https://doi.org/10.21437/Interspeech.2021-140.
 [^fn6]: Roberts, Leland. “Understanding the Mel Spectrogram.” Medium, March 5, 2020. https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53.
 [^fn7]: Yun, Sangdoo, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, and Youngjoon Yoo. “CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features.” In Proceedings of the 2019 IEEE/CVF International Conference on Computer Vision (ICCV), 6022–6031. 2019. https://doi.org/10.1109/ICCV.2019.00612.
 [^fn8]: Zhang, Hongyi, Moustapha Cissé, Yann N. Dauphin, and David Lopez‑Paz. “mixup: Beyond Empirical Risk Minimization.” arXiv preprint arXiv:1710.09412, October 2017. https://doi.org/10.48550/arXiv.1710.09412. 
-[^fn9]: Park, Daniel S., William Chan, Yu Zhang, Chung‑Cheng Chiu, Barret Zoph, Ekin D. Cubuk, and Quoc V. Le.
-“SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition.” In Proceedings of Interspeech 2019, September 15–19, 2019, Graz, Austria, 2613–2617. https://doi.org/10.21437/Interspeech.2019-2680.
-[^fn10]: Wang, Helin, Yuexian Zou, and Wenwu Wang.  “SpecAugment++: A Hidden Space Data Augmentation Method for Acoustic Scene Classification.” In Proceedings of Interspeech 2021, 551–555. Brno, Czech Republic: International Speech Communication Association, 2021. https://doi.org/10.21437/Interspeech.2021-140 
+[^fn9]: Park, Daniel S., William Chan, Yu Zhang, Chung‑Cheng Chiu, Barret Zoph, Ekin D. Cubuk, and Quoc V. Le. “SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition.” In Proceedings of Interspeech 2019, September 15–19, 2019, Graz, Austria, 2613–2617. https://doi.org/10.21437/Interspeech.2019-2680.

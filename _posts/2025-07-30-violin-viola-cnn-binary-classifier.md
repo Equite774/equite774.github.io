@@ -199,6 +199,8 @@ I'm really glad that I decided to do some engineering. A lot of the ML projects 
 
 There are several other non-neural net architectures that I would like to try. As mentioned before, others have trained support vector machines on mel-frequency cepstral coefficients and other frequency-type statistics. I would like to implement some of those, and then quite possibly train an ensemble using the best of those models and the CNN described in this blog post.
 
+[*The code from this project may be found here.*](https://github.com/Equite774/Is_It_Viola)
+
 ## Bibliography
 [^fn1]: Miles, John L. “Tuning the A1 Mode Without Changing the Body Size of an Instrument.” Catgut Acoustical Society Journal, vol. 3, no. 2, Nov. 1996, pp. 29–35.
 [^fn2]: Tamanna, Sheeban E., Mohammed Ezhan, Mahesh R., Anupama Shetter, B. D. Parameshachari, Sunil Kumar D. S., and Kiran Puttegowda. “Musical Instrument Classification Using Deep Learning CNN Models.” Proceedings of the 2024 International Conference on Integrated Intelligence and Communication Systems (ICIICS). IEEE, 2024. https://doi.org/10.1109/ICIICS63763.2024.10859695.
